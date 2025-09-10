@@ -1,5 +1,6 @@
 public class MergeSort {
     
+    //time and space complexity : O(nlogn) 
     public static void Conquer(int arr[], int si, int mid, int ei){
         int merged[] = new int [ei - si + 1];
 
